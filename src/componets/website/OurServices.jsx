@@ -76,9 +76,9 @@ const OurServices = ({ length }) => {
           </button>
         </div>
         <div className="px-4 flex flex-col gap-6 tex-white pb-[2rem]">
-          <h1 className="heading-2">{selectedService.title}</h1>
+          <h1 className="heading-2 text-white">{selectedService.title}</h1>
           {/* Update detailContent to detailedContent */}
-          <p className="desc whitespace-pre-line">
+          <p className="desc whitespace-pre-line text-white">
             {selectedService.detailedContent}
           </p>
         </div>
