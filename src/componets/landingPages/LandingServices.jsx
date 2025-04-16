@@ -8,7 +8,7 @@ const LandingServices = ({ page }) => {
       : appDevelopmentServices;
   return (
     <div id="services" className="flex justify-center relative">
-      <div className="wrapper py-10 flex flex-col items-center gap-5 z-10 text-white">
+      <div className="wrapper py-10 flex flex-col items-center gap-5 z-10 text-black">
         <div data-aos="fade-up" className="gradient-rounded-text-box mx-auto">
           Our {page === "web-development" ? "Web" : "App"} Development Services
         </div>
@@ -34,16 +34,16 @@ const LandingServices = ({ page }) => {
               key={item.id}
               className="shadow-2xl transition-all border-2 border-primary/60 bg-primary/15 hover:-translate-y-1 hover:bg-primary/25 duration-300 rounded-lg"
             >
-              <div className="flex h-full flex-col gap-2 items-center text-center text-white p-5 rounded-lg">
+              <div className="flex h-full flex-col gap-2 items-center text-center text-black p-5 rounded-lg">
                 <img
                   src={item.icon}
                   alt="icon"
-                  className="w-[6rem]"
+                  className="w-[6rem] brightness-0"
                 />
                 <h6 className="font-semibold text-2xl font-raleway">
                   {item.title}
                 </h6>
-                <p className="text-md text-white/70 desc">{item.description}</p>
+                <p className="text-md text-black/70 desc">{item.description}</p>
               </div>
             </div>
           ))}

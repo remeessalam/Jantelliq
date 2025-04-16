@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const LandingFooter = () => {
   return (
     <div className="py-14 bg-gradient-to-r border-t border-primary/30 from-primary/30 to-secondary/30">
-      <div className="wrapper text-white">
+      <div className="wrapper text-black">
         <div className="flex md:flex-row flex-col justify-between gap-10">
           <div className="flex flex-col items-center">
             <img src={logoImg} className="h-[6rem]" alt="" />
@@ -23,7 +23,7 @@ const LandingFooter = () => {
                 smooth
                 to="banner"
                 offset={-60}
-                className="text-white/70 desc text-sm cursor-pointer"
+                className="text-black desc text-sm cursor-pointer"
               >
                 Home
               </ScrollLink>
@@ -31,7 +31,7 @@ const LandingFooter = () => {
                 smooth
                 to="about"
                 offset={-60}
-                className="text-white/70 desc text-sm cursor-pointer"
+                className="text-black desc text-sm cursor-pointer"
               >
                 About Us
               </ScrollLink>
@@ -39,16 +39,16 @@ const LandingFooter = () => {
                 smooth
                 to="services"
                 offset={-60}
-                className="text-white/70 desc text-sm cursor-pointer"
+                className="text-black desc text-sm cursor-pointer"
               >
                 Services
               </ScrollLink>
-              {/* <ScrollLink to='faqs' offset={-60} className="text-white/70 desc text-sm">FAQs</ScrollLink> */}
+              {/* <ScrollLink to='faqs' offset={-60} className="text-black desc text-sm">FAQs</ScrollLink> */}
               <ScrollLink
                 smooth
                 to="contact"
                 offset={-60}
-                className="text-white/70 desc text-sm cursor-pointer"
+                className="text-black desc text-sm cursor-pointer"
               >
                 Contact Us
               </ScrollLink>
@@ -57,13 +57,16 @@ const LandingFooter = () => {
               <h6 className="font-medium mb-1">Contact Us</h6>
               <div className="flex flex-col">
                 <h6 className="text-[.9rem] mb-1">Phone</h6>
-                <Link to={`tel:${companyDetails.phone}`} className="text-white/70 desc text-sm">
+                <Link
+                  to={`tel:${companyDetails.phone}`}
+                  className="text-black desc text-sm"
+                >
                   {companyDetails.phone}
                 </Link>
               </div>
               <div className="flex flex-col mt-2">
                 <h6 className="text-[.9rem] mb-1">Office Address</h6>
-                <p className="text-white/70 desc text-sm max-w-[15rem]">
+                <p className="text-black desc text-sm max-w-[15rem]">
                   {companyDetails.address}
                 </p>
               </div>

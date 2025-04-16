@@ -26,7 +26,7 @@ export default function App() {
       <LoadingSpinnerContext />
 
       <Link
-        to={`https://wa.me/${companyDetails.whatsapp}`}
+        to={companyDetails.whatsapp}
         target="_blank"
         className="fixed bottom-[2rem] right-[2rem] z-20 p-4 rounded-full border-2 border-white bg-white hover:bg-black text-green-500 hover:text-white transition-all duration-300"
       >
@@ -62,7 +62,6 @@ export default function App() {
             path="/thank-you"
             element={
               <>
-
                 <Thankyou />
               </>
             }

@@ -33,7 +33,7 @@ const Home = () => {
               IT Services
             </div>
             <h1 className="heading-1">
-              Welcome to <br /> AI Company.
+              Welcome to <br /> Jantelliq
             </h1>
             <p className="text-2xl">Where Innovation Meets Intelligence!</p>
             <Link to="/contact-us" className="primary-btn mt-2">
@@ -55,8 +55,8 @@ const Home = () => {
             <div className="flex flex-col gap-7 text-center lg:text-start">
               <h2 className="heading-2">Uplifting Business, Powered by AI</h2>
               <p className="desc">
-                At AI Company., our perpetual devotion to revolutionising
-                company processes though a seamless integration of cutting-edge
+                At Jantelliq., our perpetual devotion to revolutionising company
+                processes though a seamless integration of cutting-edge
                 innovative technologies and artificial intelligence (AI) into
                 every facet of a company drives us. Our mission is to formulate
                 innovative, highly scalable digital solutions that will not only
@@ -102,7 +102,7 @@ const Home = () => {
             Reliable IT Support for Your Business
           </h1>
           <p className="desc max-w-[50rem] mx-auto">
-            At AI Company., we firmly believe that long-term client partnerships
+            At Jantelliq., we firmly believe that long-term client partnerships
             are nurtured through solutions that go beyond typical transactional
             relationships. The services we provide are designed with foresight
             to grow and evolve alongside your business, ensuring a solid

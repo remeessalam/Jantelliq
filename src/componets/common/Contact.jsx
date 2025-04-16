@@ -72,7 +72,7 @@ const Contact = () => {
             <p className="desc">
               Ready to elevate your business with cutting-edge AI and digital
               solutions? <br /> Contact{" "}
-              <span className="font-semibold">AI Company</span> today and
+              <span className="font-semibold">Jantelliq</span> today and
               discover how we can help you achieve your business goals.
             </p>
           </div>

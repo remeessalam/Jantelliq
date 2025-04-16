@@ -32,7 +32,7 @@ export const LandingPage = ({ page }) => {
           className="w-full h-full object-cover object-bottom absolute"
           alt=""
         />
-        <div className="bg-gradient-to-r from-secondary/90 to-primary/60 absolute w-full h-full"></div>
+        <div className="bg-black/40 absolute w-full h-full"></div>
         <div
           data-aos="fade-up"
           className="pt-[3rem] wrapper flex items-center h-full"
@@ -64,7 +64,7 @@ export const LandingPage = ({ page }) => {
 
       <ContactForm />
 
-      <section id="about" className="pb-[5rem] bg-black text-white wrapper">
+      <section id="about" className="pb-[5rem]  text-black wrapper">
         <div
           data-aos="fade-up"
           className="gradient-rounded-text-box mx-auto lg:mx-0"
@@ -110,7 +110,7 @@ export const LandingPage = ({ page }) => {
           <div data-aos="fade-left" className="h-full">
             <img
               src={isWebDevelopment ? webLandingAbout : appLandingAbout}
-              className="object-contain max-h-[30rem]"
+              className="object-contain max-h-[30rem] grayscale"
               alt=""
             />
           </div>
@@ -121,7 +121,7 @@ export const LandingPage = ({ page }) => {
       <WhyChooseUs />
       <Portfolio page={page} />
 
-      <section className="py-[5rem] bg-black text-white">
+      <section className="py-[5rem]  text-black">
         <div className="wrapper text-center flex flex-col gap-3">
           <div
             data-aos="fade-up"
@@ -131,21 +131,21 @@ export const LandingPage = ({ page }) => {
           </div>
           <h1
             data-aos="fade-up"
-            className="heading-1 bg-gradient-to-r from-[#1197C9_40%] md:min-h-[5rem] to-[#019CF8_50%] bg-clip-text text-transparent"
+            className="heading-1 bg-gradient-to-r from-primary/60 md:min-h-[5rem] to-primary bg-clip-text text-transparent"
           >
             Design & Revolution
           </h1>
           <p data-aos="fade-up" className="desc max-w-[50rem] mx-auto">
-            At AI Company, we understand that in today’s
-            digital-first world, your website is more than just an online
-            presence—it’s the heart of your brand’s identity, a vital business
-            tool, and often the first touchpoint for potential customers. In an
-            era where first impressions matter more than ever, having a
-            well-designed, fast, and responsive website is crucial to your
-            business success. That’s why our website development services go
-            beyond the basics—we aim to deliver not just a website, but a
-            complete digital experience that drives engagement, boosts
-            conversions, and empowers your business to grow.
+            At Jantelliq, we understand that in today’s digital-first world,
+            your website is more than just an online presence—it’s the heart of
+            your brand’s identity, a vital business tool, and often the first
+            touchpoint for potential customers. In an era where first
+            impressions matter more than ever, having a well-designed, fast, and
+            responsive website is crucial to your business success. That’s why
+            our website development services go beyond the basics—we aim to
+            deliver not just a website, but a complete digital experience that
+            drives engagement, boosts conversions, and empowers your business to
+            grow.
           </p>
         </div>
       </section>

@@ -39,7 +39,7 @@ const ContactForm = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "Contact Form Submission - AI Company",
+      subject: "Contact Form Submission - Jantelliq",
       body: emailBody,
     };
 

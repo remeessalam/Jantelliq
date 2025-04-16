@@ -70,7 +70,7 @@ const WebsiteHeader = () => {
           onClick={toggleDrawer}
         >
           <Hamburger
-            color="white"
+            color="black"
             size="23"
             toggled={isOpen}
             rounded
