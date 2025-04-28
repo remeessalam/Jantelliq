@@ -78,9 +78,9 @@ export const companyDetails = {
   phone: "+91-9768457917",
   whatsapp:
     "https://api.whatsapp.com/send/?phone=9768457917&text&type=phone_number&app_absent=0",
-  email: "abc@xyz.com",
+  email: "jantelliqai@gmail.com",
   address:
-    " F 140 , kaliamman kovil street mkp nagar samathanapuram tirunelveli 627002",
+    "F 140 , kaliamman kovil street mkp nagar samathanapuram tirunelveli 627002",
 };
 
 // website routes
