@@ -75,6 +75,7 @@ export {
 
 // company details
 export const companyDetails = {
+  name: "Jantelliq",
   phone: "+91-9768457917",
   whatsapp:
     "https://api.whatsapp.com/send/?phone=9768457917&text&type=phone_number&app_absent=0",
