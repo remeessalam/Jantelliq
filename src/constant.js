@@ -94,6 +94,16 @@ export const routes = [
     name: "Services",
     path: "/services",
     component: <Services />,
+    children: [
+      {
+        link: "/web-development",
+        name: "Web Development",
+      },
+      {
+        link: "/app-development",
+        name: "App Development",
+      },
+    ],
   },
   {
     name: "About Us",
