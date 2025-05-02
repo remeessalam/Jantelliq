@@ -220,6 +220,7 @@ export const allServices = [
   {
     id: "web-development",
     title: "Web Development",
+    link: true,
     smallDescription:
       "Visually stunning, responsive, and performance-optimized websites tailored to your business goals.",
     detailedContent: `
@@ -239,6 +240,7 @@ Our Web Development Services:
   {
     id: "app-development",
     title: "App Development",
+    link: true,
     smallDescription:
       "High-performance native and cross-platform apps that deliver seamless and engaging user experiences.",
     detailedContent: `
@@ -259,6 +261,7 @@ Our App Development Services:
   {
     id: "ux-ui-design",
     title: "UX/UI Design",
+    link: false,
     smallDescription:
       "Beautiful, intuitive, and user-centered designs that ensure a seamless experience and strong brand presence.",
     detailedContent: `

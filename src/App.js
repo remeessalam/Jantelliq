@@ -15,6 +15,7 @@ import SpinnerContextProvider, {
 import { Toaster } from "react-hot-toast";
 import { BsWhatsapp } from "react-icons/bs";
 import Thankyou from "./pages/Thankyou";
+import ScrollToTop from "./componets/common/ScrollToTop";
 
 AOS.init({
   once: true,
@@ -24,7 +25,7 @@ export default function App() {
   return (
     <SpinnerContextProvider>
       <LoadingSpinnerContext />
-
+      <ScrollToTop />
       <Link
         to={companyDetails.whatsapp}
         target="_blank"

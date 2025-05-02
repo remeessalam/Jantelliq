@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { PiCaretDoubleRightBold } from "react-icons/pi";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Drawer from "react-modern-drawer";
 import { IoMdClose } from "react-icons/io";
 import { allServices } from "../../constant";
@@ -9,10 +9,14 @@ const OurServices = ({ length }) => {
   const [isOpen, setIsOpen] = useState(false);
   const services = allServices.slice(0, length || allServices.length);
   const [selectedService, setSelectedService] = useState(services[0]);
-
+  const navigate = useNavigate();
   const handleSelectServiceToShowDetail = (service) => {
-    setSelectedService(service);
-    setIsOpen(true);
+    if (service.link) {
+      navigate(`/${service.id}`);
+    } else {
+      setSelectedService(service);
+      setIsOpen(true);
+    }
   };
 
   return (
